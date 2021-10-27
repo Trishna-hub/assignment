@@ -1316,6 +1316,37 @@ footer {
     .service-card-title::after{
         left: 3.5rem;
     }
+    
+    .contact-part h2 {
+        display: none;
+    }
+
+    .contact-info::before {
+        content: "Contact";
+        font-size: 3rem;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        font-family: fredokaone;
+        position: relative;
+        bottom: 3rem;
+    }
+
+    .contact-text {
+        padding-top: 0;
+    }
+
+    .contact-table {
+        margin-top: 20px;
+    }
+
+    .contact-text ul {
+        padding-left: 4.5em;
+    }
+
+    .contact-icon i {
+        left: 1.3rem;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1080px) {
