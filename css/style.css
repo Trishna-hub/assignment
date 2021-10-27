@@ -643,11 +643,11 @@ button {
 }
 
 .next-arrow {
-    right: -40px;
+    right: -25px;
 }
 
 .prev-arrow {
-    left: -40px;
+    left: -25px;
 }
 
 /* client part end */
